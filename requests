@@ -1,33 +1,76 @@
-<h1 style="text-align: center;"><strong>Requests Module</strong></h1>
-<p>Requests module is a module that allows you to discard http requests.</p>
-<p>&nbsp;</p>
-<h2>Arguments:</h2>
-<p>&nbsp;</p>
-<p><strong>get():</strong></p>
-<p>get method using request site</p>
-<p>Example:</p>
-<p>r=requests.get(url)</p>
-<p><strong>post():</strong></p>
-<p>Post method using request site</p>
-<p>Example:</p>
-<p>r=requests.post(url)</p>
-<p>&nbsp;</p>
-<h2><strong>r Arguments:</strong></h2>
-<p><strong>r.status_code</strong></p>
-<p>sends the value returned by the page to you</p>
-<p>Example:</p>
-<p>r=requests.get("https://www.google.com")</p>
-<p>print(r.status_code)</p>
-<p>&gt;&gt; 200 ok</p>
-<p><strong>Sites Code Mearning</strong></p>
-<p>100 = Continued<br /><br />200 = OK (Successful)<br /><br />201 = Created.<br /><br />202 = Accepted.<br /><br />204 = No Content<br /><br />301 = Moved Permanently or Moved<br /><br />302 = Temporarily Redirected or Moved<br /><br />400 = Bad Request<br /><br />401 = Needs Authority.<br /><br />403 = Prohibited<br /><br />404 = Not Found<br /><br />500 = Critical Server Error</p>
-<p><strong>r.text:</strong></p>
-<p>Shows posts on the page</p>
-<p>Example:</p>
-<p>r=requests.get("https://www.google.com")</p>
-<p>print(r.text)</p>
-<p>&gt;&gt; (page text)</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+Requests Module
+Requests module is a module that allows you to discard http requests.
+
+ 
+
+Arguments:
+ 
+
+get():
+
+get method using request site
+
+Example:
+
+r=requests.get(url)
+
+post():
+
+Post method using request site
+
+Example:
+
+r=requests.post(url)
+
+
+
+r Arguments:
+r.status_code
+
+sends the value returned by the page to you
+
+Example:
+
+r=requests.get("https://www.google.com")
+
+print(r.status_code)
+
+>> 200 ok
+
+Sites Code Mearning
+
+100 = Continued
+
+200 = OK (Successful)
+
+201 = Created.
+
+202 = Accepted.
+
+204 = No Content
+
+301 = Moved Permanently or Moved
+
+302 = Temporarily Redirected or Moved
+
+400 = Bad Request
+
+401 = Needs Authority.
+
+403 = Prohibited
+
+404 = Not Found
+
+500 = Critical Server Error
+
+r.text:
+
+Shows posts on the page
+
+Example:
+
+r=requests.get("https://www.google.com")
+
+print(r.text)
+
+>> (page text)
