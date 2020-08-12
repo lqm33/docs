@@ -1,2 +1,2 @@
-<h2><a href="https://github.com/lqm33/docs/tree/master/requests">Requests Module Docs</a></h2>
+<h2><a href="https://turkrepo.com/programlama/python/docs">Requests Module Docs</a></h2>
 <p>&nbsp;</p>
